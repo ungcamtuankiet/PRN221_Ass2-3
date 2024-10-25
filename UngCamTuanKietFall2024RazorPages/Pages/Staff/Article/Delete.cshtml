@@ -1,0 +1,12 @@
+﻿@page
+@model UngCamTuanKietFall2024RazorPages.Pages.Article.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<h3>Are you sure you want to delete this?</h3>
+<form method="post">
+    <input type="hidden" asp-for="NewsArticle.NewsArticleId" />
+    <input type="submit" value="Delete" class="btn btn-danger" /> |
+    <a asp-page="/Staff/StaffPage">Back to List</a>
+</form>

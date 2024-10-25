@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\UngCamTuanKietFall2024RazorPages.props" />
+</Project>

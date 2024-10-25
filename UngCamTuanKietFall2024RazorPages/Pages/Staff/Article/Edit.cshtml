@@ -1,0 +1,43 @@
+﻿@page 
+@model UngCamTuanKietFall2024RazorPages.Pages.Article.EditModel
+@{
+    ViewData["Title"] = "Edit News Article";
+}
+
+<h2>Edit News Article</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Article.NewsTitle"></label>
+        <input asp-for="Article.NewsTitle" class="form-control" />
+    </div>
+    <div class="form-group">
+                <label asp-for="Category.CategoryId" class="control-label"></label>
+                <select asp-for="Category.CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+            </div>
+    <div class="form-group">
+        <label asp-for="Article.Headline"></label>
+        <input asp-for="Article.Headline" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Article.NewsContent"></label>
+        <textarea asp-for="Article.NewsContent" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label asp-for="Article.NewsSource"></label>
+        <input asp-for="Article.NewsSource" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Article.NewsStatus"></label>
+        <input asp-for="Article.NewsStatus" class="form-control" />
+    </div>
+    <div class="form-group">
+                <label asp-for=Tags.TagId class="control-lable"></label>
+                <select asp-for="Tags.TagId" multiple="multiple" class="form-control" asp-items="ViewBag.TagId">
+                </select>
+            </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <div>
+        <a asp-page="/Staff/StaffPage">Back to List</a>
+    </div>
+</form>

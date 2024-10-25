@@ -1,0 +1,14 @@
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\bin\Debug\net8.0\Repositories.deps.json
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\bin\Debug\net8.0\Repositories.dll
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\bin\Debug\net8.0\Repositories.pdb
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\obj\Debug\net8.0\Repositories.dll
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\obj\Debug\net8.0\Repositories.pdb
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\Repositories\obj\Debug\net8.0\ref\Repositories.dll

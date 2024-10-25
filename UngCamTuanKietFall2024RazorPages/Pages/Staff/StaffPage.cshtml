@@ -1,0 +1,66 @@
+﻿@page
+@model UngCamTuanKietFall2024RazorPages.Pages.Staff.StaffPageModel
+<a asp-page="/Staff/Article/Create">Create New Article</a>
+@if (Model.NewsArticle != null && Model.NewsArticle.Any()){
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.NewsArticle[0].NewsTitle)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NewsArticle[0].Headline)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NewsArticle[0].CreatedDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NewsArticle[0].NewsContent)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NewsArticle[0].NewsSource)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NewsArticle[0].NewsStatus)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NewsArticle[0].Category)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.NewsArticle)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NewsTitle)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Headline)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NewsContent)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NewsSource)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NewsStatus)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.CategoryDesciption)
+                    </td>
+                    <td>
+                        <a asp-page="/Staff/Article/Edit" asp-route-id="@item.NewsArticleId">Edit</a> |
+                        <a asp-page="/Staff/Article/Details" asp-route-id="@item.NewsArticleId">Details</a> |
+                        <a asp-page="/Staff/Article/Delete" asp-route-id="@item.NewsArticleId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

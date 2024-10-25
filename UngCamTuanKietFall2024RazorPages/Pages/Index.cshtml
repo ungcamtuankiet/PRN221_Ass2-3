@@ -1,0 +1,10 @@
+﻿@page
+@model IndexModel
+@if (string.IsNullOrEmpty(Model.UserRole))
+{
+    <p>Bạn chưa đăng nhập. Vui lòng đăng nhập</p>
+}
+else
+{
+    <p>Bạn đã đăng nhập</p>
+}

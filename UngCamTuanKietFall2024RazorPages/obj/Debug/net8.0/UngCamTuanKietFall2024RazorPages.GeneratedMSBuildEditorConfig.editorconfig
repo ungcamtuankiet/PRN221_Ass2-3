@@ -1,0 +1,123 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UngCamTuanKietFall2024RazorPages
+build_property.RootNamespace = UngCamTuanKietFall2024RazorPages
+build_property.ProjectDir = C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Admin/AdminPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW5QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Admin/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Admin/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Admin/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Admin/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Admin/SystemAccount/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3lzdGVtQWNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Admin/SystemAccount/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3lzdGVtQWNjb3VudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Admin/SystemAccount/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3lzdGVtQWNjb3VudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Admin/SystemAccount/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3lzdGVtQWNjb3VudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Admin/SystemAccount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3lzdGVtQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Lecturer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVjdHVyZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Staff/Article/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcQXJ0aWNsZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Staff/Article/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcQXJ0aWNsZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Staff/Article/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcQXJ0aWNsZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Staff/Article/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcQXJ0aWNsZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Staff/StaffPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcU3RhZmZQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Learning/PRN221/Project/UngCamTuanKiet_SE1706Fall2024_A02.03/UngCamTuanKietFall2024RazorPages/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2k4xtnpfl7

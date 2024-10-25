@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|c:\\learning\\prn221\\project\\ungcamtuankiet_se1706fall2024_a02.03\\ungcamtuankietfall2024razorpages\\pages\\admin\\systemaccount\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|solutionrelative:ungcamtuankietfall2024razorpages\\pages\\admin\\systemaccount\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|c:\\learning\\prn221\\project\\ungcamtuankiet_se1706fall2024_a02.03\\ungcamtuankietfall2024razorpages\\pages\\admin\\category\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|solutionrelative:ungcamtuankietfall2024razorpages\\pages\\admin\\category\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|c:\\learning\\prn221\\project\\ungcamtuankiet_se1706fall2024_a02.03\\ungcamtuankietfall2024razorpages\\pages\\admin\\category\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|solutionrelative:ungcamtuankietfall2024razorpages\\pages\\admin\\category\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|c:\\learning\\prn221\\project\\ungcamtuankiet_se1706fall2024_a02.03\\ungcamtuankietfall2024razorpages\\pages\\admin\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|solutionrelative:ungcamtuankietfall2024razorpages\\pages\\admin\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|c:\\learning\\prn221\\project\\ungcamtuankiet_se1706fall2024_a02.03\\ungcamtuankietfall2024razorpages\\pages\\admin\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|solutionrelative:ungcamtuankietfall2024razorpages\\pages\\admin\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|c:\\learning\\prn221\\project\\ungcamtuankiet_se1706fall2024_a02.03\\ungcamtuankietfall2024razorpages\\pages\\admin\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|solutionrelative:ungcamtuankietfall2024razorpages\\pages\\admin\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|c:\\learning\\prn221\\project\\ungcamtuankiet_se1706fall2024_a02.03\\ungcamtuankietfall2024razorpages\\pages\\admin\\adminpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30489AC5-76A5-4B35-B638-F67F685D8B35}|UngCamTuanKietFall2024RazorPages\\UngCamTuanKietFall2024RazorPages.csproj|solutionrelative:ungcamtuankietfall2024razorpages\\pages\\admin\\adminpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 429,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\SystemAccount\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\SystemAccount\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\SystemAccount\\Edit.cshtml.cs",
+              "RelativeToolTip": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\SystemAccount\\Edit.cshtml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAvwEAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:07:50.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Edit.cshtml.cs",
+              "RelativeToolTip": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Edit.cshtml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwEEAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:13:35.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Create.cshtml.cs",
+              "ToolTip": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Create.cshtml.cs",
+              "RelativeToolTip": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Create.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:13:29.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Create.cshtml",
+              "RelativeToolTip": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T15:12:20.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminPage.cshtml",
+              "DocumentMoniker": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\AdminPage.cshtml",
+              "RelativeDocumentMoniker": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\AdminPage.cshtml",
+              "ToolTip": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\AdminPage.cshtml",
+              "RelativeToolTip": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\AdminPage.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T15:10:30.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminPage.cshtml.cs",
+              "DocumentMoniker": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\AdminPage.cshtml.cs",
+              "RelativeDocumentMoniker": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\AdminPage.cshtml.cs",
+              "ToolTip": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\AdminPage.cshtml.cs",
+              "RelativeToolTip": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\AdminPage.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T15:10:29.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Edit.cshtml",
+              "RelativeToolTip": "UngCamTuanKietFall2024RazorPages\\Pages\\Admin\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T15:09:16.707Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 28,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
