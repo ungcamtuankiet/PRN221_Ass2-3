@@ -50,6 +50,7 @@ namespace UngCamTuanKietFall2024RazorPages.Pages.Article
         [BindProperty]
         public NewsArticle NewsArticle { get; set; } = default!;
         public int? UserRole { get; private set; }
+        public List<int> SelectedTags { get; set; } = new List<int>();
 
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
@@ -60,7 +61,7 @@ namespace UngCamTuanKietFall2024RazorPages.Pages.Article
                 return Page();
             }
             short userId = (short)user_Id;
-            var result = await _articleService.CreateNewsArticleAsync(NewsArticle, userId);
+            var result = await _articleService.CreateNewsArticleAsync(NewsArticle, SelectedTags, userId);
             if(result.Code == 1)
             {
                 TempData["ErrorMessage"] = result.Message;

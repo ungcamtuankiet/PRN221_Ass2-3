@@ -18,44 +18,26 @@ namespace Repositories.Repository
         {
             _context = context;
         }
-
-        // Lấy tất cả các tag
-        public async Task<List<Tag>> GetAllAsync()
+        public async Task<IList<Tag>> GetAll()
         {
             return await _context.Tags.ToListAsync();
         }
 
-        // Tìm tag theo ID
-        public async Task<Tag?> GetByIdAsync(int tagId)
+        // Lấy tất cả các tag
+        public async Task<Tag?> GetTagByNameAsync(string tagName)
         {
-            return await _context.Tags.FindAsync(tagId);
+            return await _context.Tags.FirstOrDefaultAsync(t => t.TagName == tagName);
         }
 
-        // Thêm tag mới
-        public async Task<Tag> AddTagAsync(Tag tag)
+        public async Task AddTagAsync(Tag tag)
         {
             _context.Tags.Add(tag);
             await _context.SaveChangesAsync();
-            return tag;
         }
 
-        // Cập nhật tag
-        public async Task<Tag> UpdateTagAsync(Tag tag)
+        public async Task<Tag?> GetTagIdAsync(int id)
         {
-            _context.Tags.Update(tag);
-            await _context.SaveChangesAsync();
-            return tag;
-        }
-
-        // Xóa tag
-        public async Task DeleteTagAsync(int tagId)
-        {
-            var tag = await _context.Tags.FindAsync(tagId);
-            if (tag != null)
-            {
-                _context.Tags.Remove(tag);
-                await _context.SaveChangesAsync();
-            }
+            return await _context.Tags.FirstOrDefaultAsync(t => t.TagId == id);
         }
     }
 }

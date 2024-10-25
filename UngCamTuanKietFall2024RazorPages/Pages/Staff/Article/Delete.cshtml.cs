@@ -17,11 +17,13 @@ namespace UngCamTuanKietFall2024RazorPages.Pages.Article
     {
         private readonly IArticleService _articleService;
         private readonly IAuthService _authService;
+        private readonly IHubContext<SignalRHub> _hubContext;
 
-        public DeleteModel(IArticleService articleService, IAuthService authService)
+        public DeleteModel(IArticleService articleService, IAuthService authService, IHubContext<SignalRHub> hubContext)
         {
             _articleService = articleService;
             _authService = authService;
+            _hubContext = hubContext;
         }
         public NewsArticle NewsArticle { get; set; }
         public int? UserRole { get; private set; }
@@ -60,6 +62,7 @@ namespace UngCamTuanKietFall2024RazorPages.Pages.Article
                     return Page();
                 }
                 TempData["SuccessMessage"] = result.Message;
+                await _hubContext.Clients.All.SendAsync("RefreshData");
                 return RedirectToPage("/Staff/StaffPage");
             }
 

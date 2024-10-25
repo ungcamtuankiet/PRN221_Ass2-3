@@ -20,7 +20,7 @@ namespace Services.Service
 
         public async Task<IList<Tag>> GetTagsAsync()
         {
-            return await _tagRepository.GetAllAsync();
+            return await _tagRepository.GetAll();
         }
     }
 }

@@ -9,10 +9,9 @@ namespace Repositories.IRepository
 {
     public interface ITagRepository
     {
-        Task<List<Tag>> GetAllAsync();
-        Task<Tag?> GetByIdAsync(int tagId);
-        Task<Tag> AddTagAsync(Tag tag);
-        Task<Tag> UpdateTagAsync(Tag tag);
-        Task DeleteTagAsync(int tagId);
+        Task<IList<Tag>> GetAll();
+        Task<Tag?> GetTagByNameAsync(string tagName);
+        Task<Tag?> GetTagIdAsync(int id);
+        Task AddTagAsync(Tag tag);
     }
 }

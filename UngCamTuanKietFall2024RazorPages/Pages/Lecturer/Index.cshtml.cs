@@ -29,7 +29,6 @@ namespace UngCamTuanKietFall2024RazorPages.Pages.Lecturer
 
         public async Task OnGetAsync()
         {
-            await _hubContext.Clients.All.SendAsync("RefreshData");
             NewsArticle = await _articleService.GetAllNewsArticlesAsync();
             UserRole = await _authService.GetUserRole("LecturerRole");
         }

@@ -41,22 +41,21 @@ namespace Repositories.Repository
 
         public async Task<NewsArticle> GetNewsArticleById(string articleId)
         {
-            var _context = new FunewsManagementFall2024Context();
-            return await _context.NewsArticles.FirstOrDefaultAsync(a => a.NewsArticleId == articleId);
+            return await _context.NewsArticles
+               .Include(n => n.Tags)
+               .FirstOrDefaultAsync(n => n.NewsArticleId == articleId);
         }
 
-        public async Task<NewsArticle> CreateNewsArticle(NewsArticle article)
+        public async Task CreateNewsArticle(NewsArticle article)
         {
-            await _context.NewsArticles.AddAsync(article);
+            _context.NewsArticles.Add(article);
             await _context.SaveChangesAsync();
-            return article;
         }
 
-        public async Task<NewsArticle> UpdateNewsArticle(NewsArticle article)
+        public async Task UpdateNewsArticle(NewsArticle article)
         {
-            _context.Entry<NewsArticle>(article).State = EntityState.Modified;
+            _context.NewsArticles.Update(article);
             await _context.SaveChangesAsync();
-            return article;
         }
 
         public async Task DeleteNewsArticle(NewsArticle article)
@@ -64,5 +63,6 @@ namespace Repositories.Repository
             _context.NewsArticles.Remove(article);
             await _context.SaveChangesAsync();
         }
+
     }
 }

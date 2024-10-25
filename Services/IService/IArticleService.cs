@@ -14,8 +14,8 @@ namespace Services.IService
         Task<IList<NewsArticle>> GetAllNewsArticlesAsync();
         Task<IList<NewsArticle>> GetAllNewsArticlesByUserIdAsync(short userId);
         Task<NewsArticle> GetNewsArticleByIdAsync(string id);
-        Task<Response> CreateNewsArticleAsync(NewsArticle newsArticle, short? userId);
-        Task<Response> UpdateNewsArticleAsync(UpdateArticleDto updateArticleDto, short? userId);
+        Task<Response> CreateNewsArticleAsync(NewsArticle newsArticle, IEnumerable<int> tags, short? userId);
+        Task<Response> UpdateNewsArticleAsync(UpdateArticleDto updateArticleDto, IEnumerable<int> tags, short? userId);
         Task<Response> DeleteNewsArticleAsync(NewsArticle newsArticle);
     }
 }

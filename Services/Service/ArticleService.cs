@@ -38,7 +38,7 @@ namespace Services.Service
             return await _articleRepository.GetNewsArticleById(id);
         }
 
-        public async Task<Response> CreateNewsArticleAsync(NewsArticle newsArticle, short? userId)
+        public async Task<Response> CreateNewsArticleAsync(NewsArticle newsArticle, IEnumerable<int> tags, short? userId)
         {
             var getArticleById = await _articleRepository.GetNewsArticleById(newsArticle.NewsArticleId);
             if(getArticleById != null)
@@ -76,6 +76,7 @@ namespace Services.Service
             newsArticle.CreatedById = userId;
             newsArticle.CreatedDate = DateTime.Now;
             newsArticle.NewsStatus = true;
+            await AssignTagsToArticle(newsArticle, tags);
             await _articleRepository.CreateNewsArticle(newsArticle);
             return new Response()
             {
@@ -85,7 +86,7 @@ namespace Services.Service
             };
         }
 
-        public async Task<Response> UpdateNewsArticleAsync(UpdateArticleDto update, short? userId)
+        public async Task<Response> UpdateNewsArticleAsync(UpdateArticleDto update, IEnumerable<int> tags, short? userId)
         {
             // Tìm bài viết cần cập nhật
             var article = await _articleRepository.GetNewsArticleById(update.NewsTitle);
@@ -110,24 +111,8 @@ namespace Services.Service
             article.ModifiedDate = DateTime.Now;
             article.UpdatedById = userId;
 
-            // Xử lý danh sách tag (nếu có)
-            if (update.TagIds != null && update.TagIds.Any())
-            {
-                // Xóa các tags hiện tại
-                article.Tags.Clear();
-
-                // Thêm các tags mới từ update.TagIds
-                foreach (var tagId in update.TagIds)
-                {
-                    var tag = await _tagRepository.GetByIdAsync(tagId);
-                    if (tag != null)
-                    {
-                        article.Tags.Add(tag);
-                    }
-                }
-            }
-
             // Lưu thay đổi
+            await AssignTagsToArticle(article, tags);
             await _articleRepository.UpdateNewsArticle(article);
 
             return new Response()
@@ -152,6 +137,20 @@ namespace Services.Service
                 Message = "Delete Article Successfully",
                 Data = null
             };
+        }
+        private async Task AssignTagsToArticle(NewsArticle newsArticle, IEnumerable<int> tags)
+        {
+            newsArticle.Tags.Clear();
+
+            foreach (var tagId in tags)
+            {
+                var tag = await _tagRepository.GetTagIdAsync(tagId) ?? new Tag { TagId = tagId };
+                if (tag.TagId == 0)
+                {
+                    await _tagRepository.AddTagAsync(tag);
+                }
+                newsArticle.Tags.Add(tag);
+            }
         }
     }
 }

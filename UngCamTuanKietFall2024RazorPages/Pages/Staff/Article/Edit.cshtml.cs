@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using Repositories.Data;
 using Repositories.Dtos.Article;
@@ -21,19 +22,22 @@ namespace UngCamTuanKietFall2024RazorPages.Pages.Article
         private readonly ICategoryService _categoryService;
         private readonly ITagService _tagService; 
         private readonly IAuthService _authService;
+        private readonly IHubContext<SignalRHub> _hubContext;
 
         [BindProperty]
         public UpdateArticleDto Article { get; set; }
         public Repositories.Entities.Category Category { get; set; } = default!;
         public Repositories.Entities.Tag Tags { get; set; } = default!;
         public int? UserRole { get; private set; }
+        public List<int> SelectedTags { get; set; } = new List<int>();
 
-        public EditModel(IArticleService articleService, ICategoryService categoryService, ITagService tagService, IAuthService authService)
+        public EditModel(IArticleService articleService, ICategoryService categoryService, ITagService tagService, IAuthService authService, IHubContext<SignalRHub> hubContext = null)
         {
             _articleService = articleService;
             _categoryService = categoryService;
             _tagService = tagService;
             _authService = authService;
+            _hubContext = hubContext;
         }
 
         public async Task<IActionResult> OnGetAsync(string id)
@@ -76,13 +80,14 @@ namespace UngCamTuanKietFall2024RazorPages.Pages.Article
             }
             var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
             short? userId = string.IsNullOrEmpty(userIdString) ? (short?)null : short.Parse(userIdString);
-            var result = await _articleService.UpdateNewsArticleAsync(Article, userId);
+            var result = await _articleService.UpdateNewsArticleAsync(Article, SelectedTags, userId);
             if(result.Code == 1)
             {
                 TempData["ErrorMessage"] = result.Message;
                 return RedirectToPage("/Staff/Article/Edit");
             }
             TempData["SuccessMessage"] = result.Message;
+            await _hubContext.Clients.All.SendAsync("RefreshData");
             return RedirectToPage("/Staff/StaffPage");
         }
         public async Task<IActionResult> OnPostLogout()

@@ -1,13 +1,6 @@
-C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.csproj.AssemblyReference.cache
-C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.GeneratedMSBuildEditorConfig.editorconfig
-C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.AssemblyInfoInputs.cache
-C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.AssemblyInfo.cs
-C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.csproj.CoreCompileInputs.cache
-C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.MvcApplicationPartsAssemblyInfo.cache
-C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.RazorAssemblyInfo.cache
-C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.RazorAssemblyInfo.cs
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\bin\Debug\net8.0\appsettings.Development.json
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\bin\Debug\net8.0\appsettings.json
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\bin\Debug\net8.0\libman.json
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\bin\Debug\net8.0\UngCamTuanKietFall2024RazorPages.staticwebassets.runtime.json
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\bin\Debug\net8.0\UngCamTuanKietFall2024RazorPages.exe
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\bin\Debug\net8.0\UngCamTuanKietFall2024RazorPages.deps.json
@@ -250,6 +243,15 @@ C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFa
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\bin\Debug\net8.0\Services.dll
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\bin\Debug\net8.0\Repositories.pdb
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\bin\Debug\net8.0\Services.pdb
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.csproj.AssemblyReference.cache
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.AssemblyInfoInputs.cache
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.AssemblyInfo.cs
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.csproj.CoreCompileInputs.cache
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.MvcApplicationPartsAssemblyInfo.cache
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.RazorAssemblyInfo.cache
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.RazorAssemblyInfo.cs
+C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.sourcelink.json
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\staticwebassets.build.json
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\staticwebassets.development.json
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\staticwebassets\msbuild.UngCamTuanKietFall2024RazorPages.Microsoft.AspNetCore.StaticWebAssets.props
@@ -266,4 +268,3 @@ C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFa
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.pdb
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\UngCamTuanKietFall2024RazorPages.genruntimeconfig.cache
 C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\obj\Debug\net8.0\ref\UngCamTuanKietFall2024RazorPages.dll
-C:\Learning\PRN221\Project\UngCamTuanKiet_SE1706Fall2024_A02.03\UngCamTuanKietFall2024RazorPages\bin\Debug\net8.0\libman.json

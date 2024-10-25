@@ -68,7 +68,7 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapRazorPages();
 });
-app.MapHub<SignalRHub>("SignalRHub");
+app.MapHub<SignalRHub>("/signalRHub");
 app.MapRazorPages();
 app.MapGet("/", context => {
     context.Response.Redirect("/Auth/Login");

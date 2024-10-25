@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "81Kdf8d+MKcjPm6XvhY0LF5AIfM+WTsZXiXUL6NOfM4=",
+  "Hash": "ZkF4ToJPj0MxflQEgfzAggIFyUaZMzmqeon7x9wWHys=",
   "Source": "UngCamTuanKietFall2024RazorPages",
   "BasePath": "_content/UngCamTuanKietFall2024RazorPages",
   "Mode": "Default",
@@ -91,25 +91,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\wwwroot\\js\\Clientsite.js",
-      "SourceId": "UngCamTuanKietFall2024RazorPages",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\wwwroot\\",
-      "BasePath": "_content/UngCamTuanKietFall2024RazorPages",
-      "RelativePath": "js/Clientsite.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Clientsite.js"
     },
     {
       "Identity": "C:\\Learning\\PRN221\\Project\\UngCamTuanKiet_SE1706Fall2024_A02.03\\UngCamTuanKietFall2024RazorPages\\wwwroot\\js\\microsoft\\signalr\\dist\\browser\\signalr.js",
